@@ -1,0 +1,14 @@
+cd C:\Users\rohit\OneDrive\Desktop\hackathon\4710_Project_3>
+git pull
+
+git add .
+
+git commit -m "msg"
+
+git status 
+
+git branch -- which branch u are in 
+
+git checkout -b rohit/main -- change the branch
+
+git push -u origin branch_name
