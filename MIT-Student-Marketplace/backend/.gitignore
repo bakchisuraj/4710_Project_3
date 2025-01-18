@@ -1,0 +1,81 @@
+backend/config/firebase-service-account.json
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Node modules
+node_modules/
+
+# Build directories
+build/
+dist/
+
+# Dependency directories
+bower_components/
+
+# Environment variables
+.env
+
+# IDE and editor-specific files
+.vscode/
+.idea/
+*.swp
+*.sublime-project
+*.sublime-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Test coverage
+coverage/
+
+# Miscellaneous
+*.lock
+*.cache
+*.log
+
+# Generated files
+*.min.js
+*.map
+
+# Git itself
+.git/
+
+# Lint and formatting
+.eslintcache
+
+# Parcel-bundler cache (if used)
+.cache/
+
+# Optional npm cache directory
+.npm/
+
+# Yarn files
+.yarn/
+yarn.lock
+
+# React Native
+*.keystore
+
+# Others
+*.bak
+*.backup
+*.orig
+*.rej
+
+config/firebaseAdminSDK.json.json
+
