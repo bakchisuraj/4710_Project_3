@@ -24,7 +24,7 @@ function Github(){
 export default Github
 
 export async function infoFromGithub(){
-    const response = await fetch("https://api.github.com/users/Rajghosh786")
+    const response = await fetch("https://api.github.com")
     const data = await response.json();
     return data
 }
