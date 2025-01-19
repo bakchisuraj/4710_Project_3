@@ -1,0 +1,102 @@
+/* Contact.css */
+.contact-container {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    min-height: 700px;
+    background-color: white;
+}
+
+.contact-content {
+    max-width: 960px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.contact-info {
+    padding: 24px;
+    background-color: #f3f4f6;
+    border-radius: 8px;
+}
+
+.contact-title {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #333;
+}
+
+.contact-subtitle {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #4b5563;
+    margin-top: 8px;
+}
+
+.contact-details {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    color: #4b5563;
+}
+
+.contact-icon {
+    width: 32px;
+    height: 32px;
+    color: #6b7280;
+}
+
+.contact-text {
+    margin-left: 16px;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 200px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+}
+
+.form-label {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.form-input {
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #4b5563;
+}
+
+.submit-button {
+    background-color: #f97316;
+    color: white;
+    font-weight: 700;
+    padding: 12px 24px;
+    border-radius: 8px;
+    margin-top: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #ea580c;
+}

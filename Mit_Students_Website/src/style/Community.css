@@ -1,0 +1,157 @@
+/* Community.css */
+
+/* Container */
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 24px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Category and Filter Section */
+  .filter-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+  }
+  
+  .filter-container {
+    width: 32%;
+  }
+  
+  .filter-header {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .filter-select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+  }
+  
+  .filter-select:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+  }
+  
+  /* Create Post Section */
+  .create-post {
+    margin-bottom: 24px;
+  }
+  
+  .create-post h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .create-post textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+  }
+  
+  .create-post button {
+    margin-top: 8px;
+    background-color: #3b82f6;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .create-post button:hover {
+    background-color: #2563eb;
+  }
+  
+  /* Community Feed Section */
+  .feed-section {
+    max-height: 500px;
+    overflow-y: auto;
+    margin-bottom: 24px;
+  }
+  
+  .feed-section h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 24px;
+  }
+  
+  .post {
+    border: 1px solid #d1d5db;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .post h4 {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .post p {
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin-top: 8px;
+  }
+  
+  .post .like-button {
+    background-color: #3b82f6;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .post .like-button:hover {
+    background-color: #2563eb;
+  }
+  
+  .comment-section {
+    margin-top: 16px;
+  }
+  
+  .comment-section input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 0.875rem;
+  }
+  
+  .comment-section button {
+    margin-top: 8px;
+    background-color: #10b981;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .comment-section button:hover {
+    background-color: #059669;
+  }
+  
+  .comments-list {
+    margin-top: 8px;
+  }
+  
+  .comment-item {
+    font-size: 0.875rem;
+    color: #4b5563;
+    margin-bottom: 8px;
+  }
+  

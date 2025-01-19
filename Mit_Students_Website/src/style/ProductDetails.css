@@ -1,0 +1,122 @@
+/* Overall container styling */
+.product-details-container {
+    max-width: 900px;
+    margin: 50px auto;
+    background: linear-gradient(to bottom right, #ffffff, #f8f9fa);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    border: 1px solid #e6e6e6;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-details-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Centered card styling */
+.product-details-card {
+    text-align: center;
+    color: #333;
+}
+
+/* Product image */
+.product-details-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Product title */
+.product-details-card h1 {
+    font-size: 28px;
+    color: #2c3e50;
+    font-weight: bold;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+/* Subtitle or category */
+.product-details-card h5 {
+    font-size: 18px;
+    color: #8e8e8e;
+    margin: 10px 0;
+    font-style: italic;
+}
+
+/* Pricing details */
+.product-details-card h3 {
+    font-size: 24px;
+    color: #27ae60;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.product-details-card h2 {
+    font-size: 20px;
+    color: #e74c3c;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+/* Description */
+.product-details-card p {
+    font-size: 16px;
+    color: #555;
+    margin-top: 20px;
+    line-height: 1.8;
+    padding: 0 15px;
+}
+
+/* Buttons styling */
+.product-details-card .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.product-details-card .btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.product-details-card .btn-secondary {
+    background-color: #6c757d;
+}
+
+.product-details-card .btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    .product-details-container {
+        padding: 15px;
+    }
+
+    .product-details-card h1 {
+        font-size: 24px;
+    }
+
+    .product-details-card p {
+        font-size: 14px;
+    }
+
+    .product-details-card .btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
