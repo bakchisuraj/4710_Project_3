@@ -42,7 +42,7 @@ function Feedback() {
   };
 
   return (
-    <div className="max-w-4xl mt-10 mb-10 mx-auto p-6 bg-white shadow-md rounded-md">
+    <div className="bg-gradient-to-r from-blue-200 to-indigo-300 max-w-4xl mt-10 mb-10 mx-auto p-6 bg-white shadow-md rounded-md">
       <h2 className="text-2xl font-semibold text-center mb-6">Submit Your Review</h2>
       
       <form onSubmit={handleSubmitReview} className="space-y-6">

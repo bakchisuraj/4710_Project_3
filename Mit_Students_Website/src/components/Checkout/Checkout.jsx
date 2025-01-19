@@ -40,7 +40,7 @@ function Checkout() {
   const totalAmount = orderPrice + taxAmount;
 
   return (
-    <div className="max-w-7xl mx-auto p-6 flex space-x-8">
+    <div className="bg-gradient-to-r from-blue-200 to-indigo-300 max-w-full mx-auto p-6 flex space-x-8">
       <div className="flex-1">
         <div className="max-w-xl mt-10 mb-10 mx-auto p-6 bg-white shadow-md rounded-md">
           <h2 className="text-2xl font-semibold text-center mb-6">Checkout</h2>

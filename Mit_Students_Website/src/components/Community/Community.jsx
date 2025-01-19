@@ -87,7 +87,7 @@ const Community = () => {
   });
 
   return (
-    <div className="max-w-4xl mx-auto p-6 bg-white shadow-md rounded-md">
+    <div className="mt-10 mb-10 bg-gradient-to-r from-blue-200 to-indigo-300 max-w-4xl mx-auto p-6 bg-white shadow-md rounded-md">
 
       {/* Category and Filter Section */}
       <div className="flex justify-between mb-6">

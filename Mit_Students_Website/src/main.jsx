@@ -15,6 +15,9 @@ import Register from './components/Register/Register.jsx'
 import Feedback from './components/Feedback/Feedback.jsx'
 import Checkout from './components/Checkout/Checkout.jsx'
 import Community from './components/Community/Community.jsx'
+import Logout from './components/Logout/Logout.jsx'
+import Profile from './components/Profile/Profile.jsx'
+import StudentRecommendation from './components/StudentRecommendation/StudentRecommendation.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -30,10 +33,13 @@ const router = createBrowserRouter(
       path='github' 
       element={<Github/>}/>
       <Route path='login' element={<Login/>}/>
+      <Route path='logout' element={<Logout/>}/>
       <Route path='register' element={<Register/>}/>
+      <Route path='profile' element={<Profile/>}/>
       <Route path='checkout' element={<Checkout/>}/>
       <Route path='feedback' element={<Feedback/>}/>
       <Route path="community" element={<Community/>} />
+      <Route path="studentrecommendation" element={<StudentRecommendation/>} />
     </Route>
   )
 )

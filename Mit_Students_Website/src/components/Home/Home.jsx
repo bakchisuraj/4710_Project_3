@@ -10,7 +10,7 @@ export default function Home() {
     };
 
     return (
-        <div className="mx-auto w-full">
+        <div className="bg-gradient-to-r from-blue-200 to-indigo-300 mx-auto w-full">
             <div className="lg:hidden p-4">
                 <button
                     onClick={toggleSidebar}
