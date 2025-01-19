@@ -42,7 +42,7 @@ function Feedback() {
   };
 
   return (
-    <div className="bg-gradient-to-r from-blue-200 to-indigo-300 max-w-4xl mt-10 mb-10 mx-auto p-6 bg-white shadow-md rounded-md">
+    <div className="bg-gradient-to-r from-blue-200 to-indigo-300 max-w-full mx-auto p-6 flex space-x-8">
       <h2 className="text-2xl font-semibold text-center mb-6">Submit Your Review</h2>
       
       <form onSubmit={handleSubmitReview} className="space-y-6">
@@ -183,9 +183,9 @@ function Feedback() {
         <h3 className="text-xl font-semibold mb-4">Product Reviews</h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {reviews.map((review) => (
-            <div key={review.id} className="border border-gray-300 p-4 rounded-md">
+            <div key={review.id} className="border border-gray-300 bg-white  p-4 rounded-md">
               <h4 className="text-xl font-semibold">{review.name}</h4>
-              <p className="text-sm text-gray-500">Rating: {review.rating} / 5</p>
+              <p className="text-sm text-gray-700">Rating: {review.rating} / 5</p>
               <p className="mt-2">{review.comment}</p>
             </div>
           ))}

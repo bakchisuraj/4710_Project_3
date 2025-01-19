@@ -3,37 +3,22 @@ import React from "react";
 function Sidebar({ sidebarOpen, toggleSidebar }) {
   const categories = [
     "Electronics",
-    "Clothing",
+    "Men",
+    "Women",
     "Home & Kitchen",
     "Books",
     "Beauty",
     "Sports",
     "Toys",
     "Automotive",
-    "Electronics",
-    "Clothing",
-    "Home & Kitchen",
-    "Books",
-    "Beauty",
-    "Sports",
-    "Toys",
-    "Automotive",
-    "Electronics",
-    "Clothing",
-    "Home & Kitchen",
-    "Books",
-    "Beauty",
-    "Sports",
-    "Toys",
-    "Automotive",
-    
-  ];
+    "Grocery",
+    "Furnitue"];
 
   return (
     <div
-      className={`lg:block w-64 bg-gray-100 p-5 border-r border-gray-300 ${
-        sidebarOpen ? "fixed inset-0 z-50" : "hidden"
-      } lg:relative lg:w-64`}
+      className={`lg:block w-64  p-5 border-r border-gray-300 ${
+        sidebarOpen ? "fixed inset-0 z-60" : "hidden"
+      } lg:relative lg:w-64 h-screen`}
     >
       <button
         className="lg:hidden absolute top-4 right-4"
@@ -59,7 +44,7 @@ function Sidebar({ sidebarOpen, toggleSidebar }) {
         {categories.map((category, index) => (
           <li
             key={index}
-            className="p-2 cursor-pointer text-lg rounded-md transition-colors duration-200 hover:bg-gray-200"
+            className="p-2 cursor-pointer text-lg rounded-md transition-colors duration-200 hover:bg-white"
           >
             {category}
           </li>
