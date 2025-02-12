@@ -11,4 +11,4 @@ A dedicated website exclusively for **MIT students**, providing a secure and con
 - **Backend:** Firebase
 - **Database:** Firebase
 - **Authentication:** Firebase Authentication
-🎯 **Connect with us**
+  
